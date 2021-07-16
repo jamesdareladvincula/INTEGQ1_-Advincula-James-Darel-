@@ -11,8 +11,9 @@ namespace TimeKeepingSystem
             UserInformation user = new UserInformation();
             TimeStamp workTime = new TimeStamp();
 
-            Console.WriteLine("EMPLOYEE TIME KEEPING SYSTEM");
-            Console.WriteLine("----------------------------");
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine("| EMPLOYEE TIME KEEPING SYSTEM |");
+            Console.WriteLine("--------------------------------");
             Console.WriteLine("Press 1 to LOG IN");
             
             int userInput = int.Parse(Console.ReadLine());
